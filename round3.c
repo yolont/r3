@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
 
 int max_2d(const int size, int array[][size]) {
     if (array == NULL) return -1;
